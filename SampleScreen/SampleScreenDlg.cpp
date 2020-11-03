@@ -116,13 +116,13 @@ BOOL CSampleScreenDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// 큰 아이콘을 설정합니다.
 	SetIcon(m_hIcon, FALSE);		// 작은 아이콘을 설정합니다.
 
-
+	//스크린 버튼 초기화
 	m_CtrlScreenBtn.m_Screen_1Ch.SetParam(this, E_SCREEN_1CH);
 	m_CtrlScreenBtn.m_Screen_4Ch.SetParam(this, E_SCREEN_4CH);
 	m_CtrlScreenBtn.m_Screen_9Ch.SetParam(this, E_SCREEN_9CH);
 	m_CtrlScreenBtn.m_Screen_16Ch.SetParam(this, E_SCREEN_16CH);
 
-	// TODO: 여기에 추가 초기화 작업을 추가합니다.
+	//스크린 초기화
 	m_ScreenBase.ModifyStyle(0, WS_CLIPCHILDREN);
 	m_ScreenBase.SetParam(this);
 	m_ScreenBase.ScreenInit();
