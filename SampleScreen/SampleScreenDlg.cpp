@@ -54,7 +54,7 @@ CSampleScreenDlg::CSampleScreenDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 	m_pClickScreen = NULL;
-	m_index = E_SCREEN_16CH;
+	m_index = E_SCREEN_16CH;x
 
 }
 
