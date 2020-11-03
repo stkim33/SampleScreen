@@ -1,10 +1,10 @@
 ## SampleScreen 
 
-### Language : C/C++(MFC)  
-### IDE : visual studio 2015
+### Language : C/C++(MFC) , IDE : visual studio 2015
 
 #### Screen Program Image
 ![image](https://user-images.githubusercontent.com/52806386/98004510-60bb8700-1e33-11eb-8972-a346faf7f66b.png)
+
 
 #### Screen Program Initialization
 
