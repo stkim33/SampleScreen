@@ -44,3 +44,4 @@
     m_listScreen.AddTail(pScreenData);
   }
 ```
+![image](https://user-images.githubusercontent.com/52806386/98004510-60bb8700-1e33-11eb-8972-a346faf7f66b.png)
